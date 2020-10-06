@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>gulp-scss-starter</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.min.css">
+        <link rel="stylesheet" href="styles/main.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        
+    </head>
+        <body class="rcb-page">
+            
+            <div class="banner-main">
+   
+        <div class="ad-list-center-item-text">BUY THE BANNER<br>
+            900 X 180
+            </div>
+            <div class="ad-list-center-item-order">
+                $30/week
+            </div>
+
+</div>
+<div class="main">
+    <div class="main-left">
+        <div class="main-left-menu">
+            <div class="main-left-menu-logo">Logo</div>
+            <a class="main-left-menu-item active" href="/">
+                <object alt="" class="main-left-menu-item-icon">
+                    <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.1875 19.2698L17.5 4.92603L32.8125 19.2698"  stroke-width="2" stroke-miterlimit="10"/>
+                        <path d="M5.46875 15.9597V30.3035H14.2188V19.2698H20.7812V30.3035H29.5312V15.9597" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                        
+            </object><span>Main</span></a>
+            <div class="main-left-menu-item" dropactivate data-state="closed">
+                <object alt="" class="main-left-menu-item-icon">
+                    <svg width="35" height="35" viewBox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                        <path class="fill" d="M33.9725 0.000957168C26.6333 0.00772571 19.4425 3.09685 14.2422 8.47729L12.3931 10.3264L10.4272 8.36052L4.62415 9.99851L0 14.6226L4.04827 18.671L4.0482 18.6711L4.25755 18.8803L2.35327 22.8088L3.60845 24.064L0.538338 27.1342L1.98865 28.5845L5.05877 25.5144L6.54354 26.9993L0.0419103 33.5008L1.49222 34.9511L7.99385 28.4496L9.47863 29.9343L6.40837 33.0046L7.85869 34.4549L10.9289 31.3846L12.1841 32.6399L16.1128 30.7356L20.3704 34.9932L24.9941 30.3697L26.6378 24.5714L24.6666 22.6004L26.5157 20.7513C29.0801 18.2795 31.2056 15.2316 32.6624 11.9366C35.4291 5.67942 34.9385 0.655728 35 0L33.9725 0.000957168ZM5.69611 11.8271L9.8271 10.6611L10.9427 11.7767L5.49852 17.2207L2.90056 14.6226L5.69611 11.8271ZM12.6026 30.1578L4.83541 22.3904L5.79271 20.4156L14.5776 29.2005L12.6026 30.1578ZM24.3361 25.1705L23.1664 29.2969L20.3704 32.0927L17.7723 29.4948L23.2162 24.0509L24.3361 25.1705ZM25.0858 19.2808L23.2164 21.1503L23.2162 21.1501L16.3222 28.0441L6.94897 18.6711C7.64004 17.9801 13.1766 12.4436 13.8434 11.7767C14.0592 11.5609 13.1103 12.51 15.7114 9.90853C20.2795 5.17937 26.5027 2.35969 32.9243 2.07576C32.6406 8.50198 29.8189 14.7221 25.0858 19.2808Z"/>
+                        <path class="fill" d="M25.1253 16.4799C26.9501 14.6551 26.9515 11.6874 25.1286 9.86449C24.247 8.98287 23.0734 8.49731 21.8239 8.49731C19.2447 8.49731 17.1479 10.5757 17.1486 13.1707C17.1489 14.4207 17.6347 15.5947 18.5166 16.4766C20.3222 18.282 23.2926 18.3127 25.1253 16.4799ZM21.8239 10.5484C22.5255 10.5484 23.1841 10.8206 23.6783 11.3148C24.7015 12.3381 24.7 14.0045 23.675 15.0296C23.184 15.5205 22.527 15.7908 21.8247 15.7908C20.3571 15.7908 19.2 14.6141 19.1996 13.1701C19.1994 12.4686 20.3873 10.5484 21.8239 10.5484Z" />
+                        </svg>
+                        
+                </object>
+                <span>Projects</span> 
+                <object alt="" class="main-left-menu-item-icon-arrow">
+                
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+                        <g clip-path="url(#clip1000)">
+                        <path d="M13.2312 2.86572L7.49994 8.59696L1.76871 2.86572L-6.10352e-05 4.63443L7.49994 12.1344L14.9999 4.63443L13.2312 2.86572Z" fill="#3D4B69"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip1000">
+                        <rect width="15" height="15" fill="white" transform="translate(14.9999) rotate(90)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                </object>
+            
+            </div>
+            <div class="main-left-menu-item-dropdown" dropdown data-state="closed">
+                <a class="main-left-menu-item-dropdown-item">
+                    LATEST PROJECT
+                </a>
+                <a class="main-left-menu-item-dropdown-item">
+                    BASIC PROJECT
+                </a>
+                <a class="main-left-menu-item-dropdown-item">
+                    STANDART PROJECT
+                </a>
+                <a class="main-left-menu-item-dropdown-item" href="/projects.html">
+                    BEST PROJECT
+                </a>
+                <a class="main-left-menu-item-dropdown-item">
+                    PREMIUM PROJECT
+                </a>
+            </div>
+            <a class="main-left-menu-item" href="./rcb.html"><object  alt="" class="main-left-menu-item-icon">
+                <svg width="35" height="35" viewBox="0 0 35 35"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.5 0C10.423 0 4.66547 5.75757 4.66547 12.8345C4.66547 15.0715 5.25001 17.2743 6.35593 19.2048C7.33128 20.9075 8.69347 22.3729 10.3174 23.4719V35H24.6827V23.4719C26.3066 22.3729 27.6689 20.9075 28.6442 19.2048C29.7501 17.2743 30.3346 15.0715 30.3346 12.8345C30.3346 5.75757 24.577 0 17.5 0V0ZM12.3681 26.7903H22.632V28.8444H12.3681V26.7903ZM13.3952 13.8616C12.8289 13.8616 12.3681 13.4008 12.3681 12.8345C12.3681 12.2683 12.8289 11.8076 13.3952 11.8076C13.9615 11.8076 14.4221 12.2683 14.4221 12.8345C14.4221 13.4008 13.9615 13.8616 13.3952 13.8616ZM18.527 15.9124V24.7395H16.4729V15.9124H18.527ZM20.5778 12.8345C20.5778 12.2683 21.0385 11.8076 21.6048 11.8076C22.1711 11.8076 22.6318 12.2683 22.6318 12.8345C22.6318 13.4008 22.1711 13.8616 21.6048 13.8616C21.0385 13.8616 20.5778 13.4008 20.5778 12.8345ZM12.3681 32.9492V30.8952H22.632V32.9492H12.3681ZM26.8646 18.1855C25.9634 19.7588 24.6692 21.0911 23.1219 22.0384L22.6319 22.3385V24.7395H20.5778V15.9124H21.6048C23.3019 15.9124 24.6826 14.5316 24.6826 12.8345C24.6826 11.1375 23.3019 9.7568 21.6048 9.7568C19.9077 9.7568 18.527 11.1375 18.527 12.8345C18.527 13.1946 18.5897 13.5402 18.7039 13.8616H16.2961C16.4102 13.5401 16.4729 13.1946 16.4729 12.8345C16.4729 11.1375 15.0923 9.7568 13.3952 9.7568C11.6981 9.7568 10.3174 11.1375 10.3174 12.8345C10.3174 14.5316 11.6981 15.9124 13.3952 15.9124H14.4221V24.7395H12.3681V22.3385L11.8781 22.0384C10.3308 21.0911 9.03657 19.7587 8.13532 18.1855C7.20693 16.5648 6.71618 14.7144 6.71618 12.8345C6.71625 6.88837 11.5538 2.05078 17.5 2.05078C23.4462 2.05078 28.2838 6.88837 28.2838 12.8345C28.2838 14.7144 27.793 16.5648 26.8646 18.1855Z" class="fill"/>
+                    </svg>
+                    
+            </object><span>RCB</span></a>
+            <a class="main-left-menu-item" href="/news.html"><object alt="" class="main-left-menu-item-icon">
+                <svg width="30" height="31" viewBox="0 0 30 31" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.61539 11.6408C3.97962 11.6408 3.46155 11.1182 3.46155 10.4768V8.14886C3.46155 7.5075 3.97962 6.98486 4.61539 6.98486H16.1539C16.7896 6.98486 17.3077 7.5075 17.3077 8.14886V10.4768C17.3077 11.1182 16.7896 11.6408 16.1539 11.6408H4.61539Z" class="fill"/>
+                    <path d="M23.0769 26.7728H5.76919C5.76919 26.7728 1.15381 26.8286 1.15381 22.0842C1.15381 17.3398 1.15381 3.49292 1.15381 3.49292H18.4615" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24.2307 26.7728H5.76919C5.76919 26.7728 1.15381 26.8286 1.15381 22.0842C1.15381 17.3398 1.15381 3.49292 1.15381 3.49292H19.6153" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M28.8462 22.1168C28.8462 26.7751 24.2308 26.7728 24.2308 26.7728C24.2308 26.7728 19.6154 26.7553 19.6154 22.0842C19.6154 17.4131 19.6154 3.49292 19.6154 3.49292"  stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.5385 22.1167H16.1539M24.2308 20.9527V9.31282C24.2308 9.31282 24.285 6.98484 26.5385 6.98484C28.792 6.98484 28.8462 9.34541 28.8462 9.34541V22.1167L24.2308 20.9527ZM26.5385 6.95923H19.6535H26.5385ZM4.61542 15.1328H8.07696H4.61542ZM4.61542 18.6248H8.07696H4.61542ZM11.5385 15.1328H16.1539H11.5385ZM11.5385 18.6248H16.1539H11.5385ZM5.19234 22.1167H8.07696H5.19234Z"  stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+            </object><span>News</span></a>
+            <a class="main-left-menu-item" href="/ads.html"><object alt="" class="main-left-menu-item-icon">
+                <svg width="34" height="34" viewBox="0 0 34 34"  xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                    <path d="M5.227 30.9469L10.0286 30.9469L10.0286 24.9696H12.021V22.9772H10.0286V20.9848H10.8212L23.0414 26.1972C23.6492 26.4564 24.042 27.0508 24.042 27.7115V28.9545H26.0344C26.0344 27.7426 26.0344 20.9419 26.0344 19.6081L30.0193 17.6156V14.3918L26.0344 12.3994C26.0344 11.1814 26.0344 3.29805 26.0344 3.05298L24.042 3.05298V4.29592C24.042 4.95661 23.6492 5.55102 23.0414 5.8103L10.8212 11.0227L0 11.0227L0 20.9848H3.23458L5.227 30.9469ZM26.0344 14.6269L28.0268 15.6231V16.3842L26.0344 17.3804V14.6269ZM12.021 12.6769C24.5657 7.32255 23.8256 7.65004 24.042 7.54039L24.042 24.4669C23.8263 24.3577 24.5685 24.686 12.021 19.3304L12.021 12.6769ZM8.03613 28.9545L6.8604 28.9545L5.26645 20.9848L8.03613 20.9848L8.03613 28.9545ZM1.99243 13.0151L10.0286 13.0151L10.0286 18.9923H1.99243L1.99243 13.0151Z" class="fill"/>
+                    <path d="M29.0921 11.1128L33.1311 9.11807L34.0137 10.9053L29.9747 12.9L29.0921 11.1128Z" class="fill"/>
+                    <path d="M29.1002 20.8845L29.9828 19.0973L34.0218 21.092L33.1391 22.8792L29.1002 20.8845Z" class="fill"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0">
+                    <rect width="34" height="34" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+            </object><span>Ads</span></a>
+        </div>
+        <div class="main-left-ads">
+            <div class="main-left-ads-item size200200">
+                <div class="ad-list-center-item-text">BUY THE BANNER<br>
+                    200 X 200
+                    </div>
+                    <div class="ad-list-center-item-order">
+                        $30/week
+                    </div>
+            </div>
+            <div class="main-left-ads-item size200200">
+                <div class="ad-list-center-item-text">BUY THE BANNER<br>
+                    200 X 200
+                    </div>
+                    <div class="ad-list-center-item-order">
+                        $30/week
+                    </div>
+            </div> <div class="main-left-ads-item size200200">
+                <div class="ad-list-center-item-text">BUY THE BANNER<br>
+                    200 X 200
+                    </div>
+                    <div class="ad-list-center-item-order">
+                        $30/week
+                    </div>
+            </div>
+            <div class="main-left-ads-item size600200">
+                <div class="ad-list-center-item-text">BUY THE BANNER<br>
+                    600 X 200
+                    </div>
+                    <div class="ad-list-center-item-order">
+                        $30/week
+                    </div>
+            </div>
+            <div class="main-left-ads-item size200200">
+                <div class="ad-list-center-item-text">BUY THE BANNER<br>
+                    200 X 200
+                    </div>
+                    <div class="ad-list-center-item-order">
+                        $30/week
+                    </div>
+            </div><div class="main-left-ads-item size200200">
+                <div class="ad-list-center-item-text">BUY THE BANNER<br>
+                    200 X 200
+                    </div>
+                    <div class="ad-list-center-item-order">
+                        $30/week
+                    </div>
+            </div><div class="main-left-ads-item size200200">
+                <div class="ad-list-center-item-text">BUY THE BANNER<br>
+                    200 X 200
+                    </div>
+                    <div class="ad-list-center-item-order">
+                        $30/week
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-right"><div class="header">
+    <div class="search-block">
+        <input type="text" class="input-search" placeholder="Please enter the information...">
+        <img src="img/icons/lupa.svg" alt="лупа" class="search-block-icon">
+        <a class="search-block-account" href="./sign.html">My account</a>
+        <div class="search-block-lang">
+            <div class="search-block-lang-icon">
+                <img src="img/icons/global.svg" alt="">
+            </div>
+            
+            <a href="#">English</a>
+        </div>
+    </div>
+</div>
+
+<div class="main-right-content">
+    <!-- <div class="container"> -->
+
+        <!--  -->
+        <!-- <div class="row p25">
+           
+            <div class="best-offer">
+                <h3>SEARCH THE BEST OFFER</h3>
+               <div class="best-offer-input-block"><input type="text" class="best-offer-field" placeholder="Please enter deposit amount"> <div class="triangle"></div></div>
+               <div class="best-offer-choose">
+                   <div class="best-offer-choose-item">Lorem1</div>
+                   <div class="best-offer-choose-item">Lorem2</div>
+                   <div class="best-offer-choose-item">Lorem3</div>
+               </div>
+               <div class="best-offer-cond">
+                   <div class="best-offer-cond-percent">3%</div>
+                   <div class="best-offer-cond-summa">10 $ - 100$</div>
+               </div>
+                <button class="best-offer-button">Search</button>
+            </div>
+        
+            <div class="info">
+                <h2>HYIPINFO</h2>
+                <p>
+                    Hyipinfo is a global data collector of all High Yield investment project (HYIIP). This system will allow you to always stay in touch with all the latest changes in the world of HYIP.
+<br>
+<br>
+The purpose of monitoring HYIP projects is to provide investors with relevant information to the visitors, also we will try our best to give Relevant Hyip information to the users fast and quick. Stay in touch with us and stay tuned.
+                </p>
+                <a href="#">Read more</a>
+        </div>
+        </div> -->
+<!--  -->
+        
+        <!-- <div class="baners-central-1">
+            <img src="img/banners/center-banner.png" alt="">
+            <img src="img/banners/center-banner.png" alt="">
+            <img src="img/banners/center-banner.png" alt="">
+            <img src="img/banners/center-banner.png" alt="">
+        </div> -->
+        
+
+    <!-- <div class="baners-central-2">
+        <img src="img/banners/center-banner.png" alt="">
+    </div> -->
+    
+
+
+<!-- </div>
+
+</div>
+</div> -->
+
+            <div class="rcb">
+                <div class="rcb-heading">
+                    ORDER THE REFERAL CASHBACK
+                </div>
+                <div class="rcb-panel">
+                  <div class="rcb-panel-left">
+                      <form action="" class="rcb-panel-left-form">
+                          <div class="rcb-panel-left-form-str">
+                              <div class="rcb-panel-left-form-str-label">Your e-mail:</div>
+                              <input type="text" class="rcb-panel-left-form-str-field" placeholder="Enter your email adress..." />
+                          </div>
+                          <div class="rcb-panel-left-form-str">
+                            <div class="rcb-panel-left-form-str-label">Your nickname in <u>project:</u></div>
+                            <input type="text" class="rcb-panel-left-form-str-field" placeholder="Enter your nickaname in project..." />
+                        </div>
+                        <div class="rcb-panel-left-form-str">
+                            <div class="rcb-panel-left-form-str-label">Your nickname in  <u>portal:</u></div>
+                            <input type="text" class="rcb-panel-left-form-str-field" placeholder="Enter your nickname in portal..." />
+                        </div>
+                        <div class="rcb-panel-left-form-str">
+                            <div class="rcb-panel-left-form-str-label">Your deposit amount:</div>
+                            <input type="text" class="rcb-panel-left-form-str-field" placeholder="Enter your depposit amount..." />
+                        </div>
+                        <div class="rcb-panel-left-form-str">
+                            <div class="rcb-panel-left-form-str-label">Your account deposit:</div>
+                           
+                            <select id="mounth" class="rcb-panel-left-form-str-select-field">
+                                <option value="hide">Time</option>
+                                <option value="first">first</option>
+                                <option value="second">second</option>
+                                <option value="third">third</option>
+                                
+                            </select> 
+                            
+
+                        </div>
+                        <div class="rcb-panel-left-form-str">
+                            <div class="rcb-panel-left-form-str-label">Amount profit*:</div>
+                            <input type="text" class="rcb-panel-left-form-str-field rcb-panel-left-form-str-field-semi" />
+                        </div>
+                        <div class="rcb-panel-left-form-str">
+                            <div class="rcb-panel-left-form-str-label">Translation batch*:</div>
+                            <input type="text" class="rcb-panel-left-form-str-field rcb-panel-left-form-str-field-semi"/>
+                        </div>
+                        <div class="rcb-panel-left-form-str">
+                            <div class="rcb-panel-left-form-str-label">Your wallet:</div>
+                            <input type="text" class="rcb-panel-left-form-str-field rcb-panel-left-form-str-field-semi"/>
+                        </div>
+                        <div class="rcb-panel-left-form-str">
+                            <button class="rcb-panel-left-form-str-submit">Sign up</button>
+                        </div>
+                      </form>
+                  </div>
+                  <div class="rcb-panel-right">
+                      <div class="rcb-panel-right-text">
+                          <div class="rcb-panel-right-text-1">
+                            <u>TRANSFER BATCH </u> is the transaction number in the history of your wallet, see the history of the payment system. 
+                        </div> 
+                        <div class="rcb-panel-right-text-2">
+                            <u>AMOUNT OF PROFIT</u> its if refback is paid from the amount of the deposit, leave this line BLANK.
+                        </div>
+                        <div class="rcb-panel-right-text-3">
+                        Refback requests are accepted only through this form. In the case when refback is paid as a percentage of the deposit amount, you fill in the "Deposit amount" column. In the case when the refback is paid from income - you fill in the "Amount of profit" column, in it you indicate only the amount of profit received from the project - excluding the withdrawal of the deposit
+                        </div>
+                    </div>
+                        <div class="allprojects-statistic-contactus">
+                            <img src="img/icons/contact-pict.svg" alt="">
+                            <div class="allprojects-statistic-contactus-right">
+                                <p>Some questions?<br>
+                                    Write us !</p>
+                                    <div class="allprojects-statistic-contactus-right-icons">
+                                        <a href="#"><img src="img/icons/telegram.svg" alt=""></a>
+                                        <a href="#"><img src="img/icons/facebook.svg" alt=""></a>
+                                        <a href="#"><img src="img/icons/instagram.svg" alt=""></a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+                  <table class="rcb-table" cellspacing="0">
+                      <thead>
+                          <tr>
+                              <th>Date time</th>
+                              <th>Project</th>
+                              <th>User</th>
+                              <th>UPS</th>
+                              <th>Dep.</th>
+                              <th>RCB</th>
+                              <th>Status</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>10/05/2020 06:30:59</td>
+                              <td>Nameproject.ru</td>
+                              <td>User1***</td>
+                              <td>
+                                  <div class="icon"></div>
+                                  Payeer
+                              </td>
+                              <td>$50</td>
+                              <td>0.85</td>
+                              <td>
+                                  <div class="status status-paying">
+                                      Paying
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                            <td>10/05/2020 06:30:59</td>
+                            <td>Nameproject.ru</td>
+                            <td>User1***</td>
+                            <td>
+                                <div class="icon"></div>
+                                Payeer
+                            </td>
+                            <td>$50</td>
+                            <td>0.85</td>
+                            <td>
+                                <div class="status status-scam">
+                                    Scam
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10/05/2020 06:30:59</td>
+                            <td>Nameproject.ru</td>
+                            <td>User1***</td>
+                            <td>
+                                <div class="icon"></div>
+                                Payeer
+                            </td>
+                            <td>$50</td>
+                            <td>0.85</td>
+                            <td>
+                                <div class="status status-insurance">
+                                    Insurance
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10/05/2020 06:30:59</td>
+                            <td>Nameproject.ru</td>
+                            <td>User1***</td>
+                            <td>
+                                <div class="icon"></div>
+                                Payeer
+                            </td>
+                            <td>$50</td>
+                            <td>0.85</td>
+                            <td>
+                                <div class="status status-waiting">
+                                    Waiting
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10/05/2020 06:30:59</td>
+                            <td>Nameproject.ru</td>
+                            <td>User1***</td>
+                            <td>
+                                <div class="icon"></div>
+                                Payeer
+                            </td>
+                            <td>$50</td>
+                            <td>0.85</td>
+                            <td>
+                                <div class="status status-paying">
+                                    Paying
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                          <td>10/05/2020 06:30:59</td>
+                          <td>Nameproject.ru</td>
+                          <td>User1***</td>
+                          <td>
+                              <div class="icon"></div>
+                              Payeer
+                          </td>
+                          <td>$50</td>
+                          <td>0.85</td>
+                          <td>
+                              <div class="status status-scam">
+                                  Scam
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>10/05/2020 06:30:59</td>
+                          <td>Nameproject.ru</td>
+                          <td>User1***</td>
+                          <td>
+                              <div class="icon"></div>
+                              Payeer
+                          </td>
+                          <td>$50</td>
+                          <td>0.85</td>
+                          <td>
+                              <div class="status status-insurance">
+                                  Insurance
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>10/05/2020 06:30:59</td>
+                          <td>Nameproject.ru</td>
+                          <td>User1***</td>
+                          <td>
+                              <div class="icon"></div>
+                              Payeer
+                          </td>
+                          <td>$50</td>
+                          <td>0.85</td>
+                          <td>
+                              <div class="status status-waiting">
+                                  Waiting
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td>10/05/2020 06:30:59</td>
+                        <td>Nameproject.ru</td>
+                        <td>User1***</td>
+                        <td>
+                            <div class="icon"></div>
+                            Payeer
+                        </td>
+                        <td>$50</td>
+                        <td>0.85</td>
+                        <td>
+                            <div class="status status-paying">
+                                Paying
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>10/05/2020 06:30:59</td>
+                      <td>Nameproject.ru</td>
+                      <td>User1***</td>
+                      <td>
+                          <div class="icon"></div>
+                          Payeer
+                      </td>
+                      <td>$50</td>
+                      <td>0.85</td>
+                      <td>
+                          <div class="status status-scam">
+                              Scam
+                          </div>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>10/05/2020 06:30:59</td>
+                      <td>Nameproject.ru</td>
+                      <td>User1***</td>
+                      <td>
+                          <div class="icon"></div>
+                          Payeer
+                      </td>
+                      <td>$50</td>
+                      <td>0.85</td>
+                      <td>
+                          <div class="status status-insurance">
+                              Insurance
+                          </div>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>10/05/2020 06:30:59</td>
+                      <td>Nameproject.ru</td>
+                      <td>User1***</td>
+                      <td>
+                          <div class="icon"></div>
+                          Payeer
+                      </td>
+                      <td>$50</td>
+                      <td>0.85</td>
+                      <td>
+                          <div class="status status-waiting">
+                              Waiting
+                          </div>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>10/05/2020 06:30:59</td>
+                    <td>Nameproject.ru</td>
+                    <td>User1***</td>
+                    <td>
+                        <div class="icon"></div>
+                        Payeer
+                    </td>
+                    <td>$50</td>
+                    <td>0.85</td>
+                    <td>
+                        <div class="status status-paying">
+                            Paying
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                  <td>10/05/2020 06:30:59</td>
+                  <td>Nameproject.ru</td>
+                  <td>User1***</td>
+                  <td>
+                      <div class="icon"></div>
+                      Payeer
+                  </td>
+                  <td>$50</td>
+                  <td>0.85</td>
+                  <td>
+                      <div class="status status-scam">
+                          Scam
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>10/05/2020 06:30:59</td>
+                  <td>Nameproject.ru</td>
+                  <td>User1***</td>
+                  <td>
+                      <div class="icon"></div>
+                      Payeer
+                  </td>
+                  <td>$50</td>
+                  <td>0.85</td>
+                  <td>
+                      <div class="status status-insurance">
+                          Insurance
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>10/05/2020 06:30:59</td>
+                  <td>Nameproject.ru</td>
+                  <td>User1***</td>
+                  <td>
+                      <div class="icon"></div>
+                      Payeer
+                  </td>
+                  <td>$50</td>
+                  <td>0.85</td>
+                  <td>
+                      <div class="status status-waiting">
+                          Waiting
+                      </div>
+                  </td>
+              </tr>
+                      </tbody>
+                  </table>
+                  <div class="companies-pagination">
+                    <div class="companies-pagination-row">
+                        <a href="#" class="companies-pagination-row-item active">1</a>
+                        <a href="#" class="companies-pagination-row-item">2</a>
+                        <a href="#" class="companies-pagination-row-item">3</a>
+                        <a href="#" class="companies-pagination-row-item">4</a>
+                        <a href="#" class="companies-pagination-row-item">5</a>
+                        <a href="#" class="companies-pagination-row-item">6</a>
+                        <a href="#" class="companies-pagination-row-item">7</a>
+                        <a href="#" class="companies-pagination-row-item-dots">. . .</a>
+                        <a href="#" class="companies-pagination-row-item">99</a>
+                    </div>
+                </div>
+                </div>
+                <div class="baners-central-2">
+                    <img src="img/banners/center-banner.png" alt="">
+                </div>
+                <div class="foo">
+    <div class="foo-top">
+        <div class="foo-top-inner">
+            <div class="foo-top-inner-logo">
+                Logo
+            </div>
+            <div class="foo-top-inner-heading">
+                DAILYHYIPS MONITOR
+            </div>
+            <div class="foo-top-inner-add-project">
+                <img src="img/icons/add.svg" alt="">
+                <div class="foo-top-inner-add-project-right">
+                    <div class="foo-top-inner-add-project-right-heading">
+                        Add your project
+                    </div>
+                    <div class="foo-top-inner-add-project-right-email">
+                        admin@dailyhyip.com
+                    </div>
+                </div>
+            </div>
+            <div class="foo-top-inner-contact">
+                <img src="img/icons/contact.svg" alt="">
+                <div class="foo-top-inner-contact-right">
+                    <div class="foo-top-inner-contact-right-heading">
+                        Contact Us
+                    </div>
+                    <div class="foo-top-inner-contact-right-email">
+                        admin@dailyhyip.com
+                    </div>
+                </div>
+            </div>
+            <div class="foo-top-inner-social">
+                <a href="#"><img src="img/icons/telegram.svg" alt=""></a>
+                <a href="#"><img src="img/icons/facebook.svg" alt=""></a>
+                <a href="#"><img src="img/icons/instagram.svg" alt=""></a>
+            </div>
+        </div>
+       
+    </div>
+    <div class="foo-text">
+        We are not owners and do not advertise the projects posted on our website. All information is provided for your personal use and is not a call for action. Most of the projects posted on the site are high-risk investments. We are not responsible for the lost funds and do not recommend that you invest more than you can afford to lose.
+    </div>
+    <div class="foo-totop">
+        <a href="#"><img src="img/icons/topb.svg" alt=""></a>
+    </div>
+    <div class="foo-copy">
+        DailyHyip 2020. <br>
+All rights reserved.
+    </div>
+</div>
+            </div>
+            
+           
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.min.js"></script>
+            <script src="js/main.min.js"></script>
+            <script src="js/vendor.min.js"></script>
+                </body>
+                </html>
